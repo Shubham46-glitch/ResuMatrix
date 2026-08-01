@@ -1,71 +1,316 @@
-# 🚀 ResuMatrix - AI Interview & Resume Analyzer Platform
+<div align="center">
 
-![MERN Stack](https://img.shields.io/badge/MERN-Stack-blue)
-![Vite](https://img.shields.io/badge/Vite-Frontend-purple)
-![Gemini AI](https://img.shields.io/badge/Google-Gemini%20AI-orange)
+# 🚀 ResuMatrix AI
+### AI-Powered Resume Analyzer & Mock Interview Platform
 
-ResuMatrix is a powerful, full-stack AI-driven platform built to help job seekers prepare for interviews. It features an intelligent mock interview system that evaluates user responses in real-time using Google's Gemini AI, alongside tools for analyzing and tracking performance.
+<img src="./assets/banner.png" alt="ResuMatrix Banner" width="100%"/>
 
-## 🌟 Key Features
+[![React](https://img.shields.io/badge/React-19-blue?logo=react)]()
+[![Node.js](https://img.shields.io/badge/Node.js-Express-green?logo=node.js)]()
+[![MongoDB](https://img.shields.io/badge/MongoDB-Atlas-success?logo=mongodb)]()
+[![Gemini AI](https://img.shields.io/badge/Google-Gemini_AI-4285F4?logo=google)]()
+[![License](https://img.shields.io/badge/License-MIT-orange)]()
 
-*   **🤖 AI Mock Interviews:** Practice behavioral and technical questions with an intelligent AI interviewer.
-*   **🎙️ Speech-to-Text Recognition:** Speak your answers naturally! The platform uses built-in browser speech recognition (optimized for English/Indian accents) to transcribe your voice.
-*   **📊 Instant AI Evaluation:** Google's Gemini 1.5 Flash AI evaluates your answers, providing a score out of 10 and detailed, constructive feedback on how to improve.
-*   **🔐 Secure Authentication:** Complete login, signup, and password reset flows using JWT (JSON Web Tokens) and secure password hashing.
-*   **📈 History & Analytics:** Track all your past interviews and view your progress over time through a sleek dashboard.
+### 🚀 Analyze Your Resume • Practice AI Interviews • Improve Your Career
 
-## 🛠️ Technology Stack
-
-**Frontend:**
-*   **React + Vite:** For blazing fast rendering and development.
-*   **Tailwind CSS:** For beautiful, responsive, modern UI design.
-*   **Framer Motion:** For smooth page transitions and micro-animations.
-
-**Backend:**
-*   **Node.js & Express.js:** Robust RESTful API architecture.
-*   **MongoDB Atlas & Mongoose:** Cloud database for scalable data storage.
-*   **Google Gemini AI:** Intelligent processing for interview evaluation.
-
-## 🚀 Live Demo
-*   **Frontend Deployment:** Vercel
-*   **Backend Deployment:** Render Web Services
-*   **Database:** MongoDB Atlas
-
-## 💻 Local Setup Instructions
-
-1.  **Clone the repository**
-    ```bash
-    git clone https://github.com/Shubham46-glitch/ResuMatrix.git
-    cd ResuMatrix
-    ```
-
-2.  **Install Dependencies**
-    You will need to install dependencies for both the frontend and backend.
-    ```bash
-    cd backend
-    npm install
-    cd ../frontend
-    npm install
-    ```
-
-3.  **Environment Variables**
-    Create a `.env` file in the `backend` folder and add the following:
-    ```env
-    PORT=5000
-    MONGO_DB_URL=your_mongodb_atlas_connection_string
-    JWT_SECRET=your_jwt_secret
-    GEMINI_API_KEY=your_google_gemini_api_key
-    ```
-    Create a `.env` file in the `frontend` folder (if testing production build):
-    ```env
-    VITE_API_URL=http://localhost:5000
-    ```
-
-4.  **Run the Application**
-    We use `concurrently` to run both servers with a single command from the root directory!
-    ```bash
-    npm run dev
-    ```
+</div>
 
 ---
-*Built with ❤️ by Shubham Baikar*
+
+# 📌 Overview
+
+**ResuMatrix AI** is an intelligent AI-powered career preparation platform that helps students and job seekers optimize their resumes, improve ATS scores, and practice personalized mock interviews using **Google Gemini AI**.
+
+Instead of simply analyzing resumes, ResuMatrix acts as an **AI Career Assistant**, providing resume evaluation, AI-generated interview questions, performance analytics, and actionable improvement suggestions.
+
+---
+
+# ✨ Features
+
+## 📄 AI Resume Analyzer
+
+- Upload Resume (PDF)
+- AI Resume Analysis
+- ATS Score Prediction
+- Resume Strengths
+- Weaknesses Detection
+- Missing Skills
+- Resume Improvement Suggestions
+- Resume History
+
+---
+
+## 🎤 AI Mock Interview
+
+- AI Generated Questions
+- Resume Based Questions
+- Job Description Based Questions
+- HR Questions
+- Technical Questions
+- Behavioral Questions
+- Scenario Based Questions
+- Project Based Questions
+
+---
+
+## 🎙 Voice Interview (Browser Speech API)
+
+- Speech-to-Text
+- Browser Voice Recognition
+- English & Indian Accent Support
+- Hands-Free Interview Experience
+
+---
+
+## 🤖 AI Evaluation
+
+Gemini AI evaluates every answer based on:
+
+- Technical Knowledge
+- Communication Skills
+- Confidence
+- Problem Solving
+- Clarity
+- Grammar
+- Professionalism
+
+After every interview users receive:
+
+- ⭐ Overall Score
+- 📊 Performance Breakdown
+- 💡 AI Feedback
+- 📚 Improvement Suggestions
+- ✅ Ideal Answers
+
+---
+
+## 📈 Dashboard
+
+- Interview History
+- Resume Analysis History
+- Performance Tracking
+- Score Comparison
+- User Profile
+- Account Settings
+
+---
+
+## 🔐 Authentication
+
+- JWT Authentication
+- Secure Login
+- Secure Signup
+- Forgot Password
+- Password Reset via Email
+- Protected Routes
+- Password Hashing using bcrypt
+
+---
+
+# 🖼 Screenshots
+
+> Add screenshots here after deployment.
+
+```
+Landing Page
+
+Dashboard
+
+Resume Analyzer
+
+Mock Interview
+
+Analytics
+
+Settings
+```
+
+---
+
+# 🛠 Tech Stack
+
+## Frontend
+
+- React 19
+- Vite
+- Tailwind CSS
+- Framer Motion
+- Axios
+- React Router
+
+---
+
+## Backend
+
+- Node.js
+- Express.js
+- MongoDB Atlas
+- Mongoose
+- JWT Authentication
+- bcrypt
+- Multer
+- Nodemailer / Resend
+
+---
+
+## AI
+
+- Google Gemini 2.5 Flash
+- Prompt Engineering
+
+---
+
+## Browser APIs
+
+- Speech Recognition API
+- Speech Synthesis API
+
+---
+
+## Deployment
+
+- Vercel
+- Render
+- MongoDB Atlas
+
+---
+
+# 📂 Project Structure
+
+```
+ResuMatrix/
+│
+├── frontend/
+│   ├── src/
+│   ├── components/
+│   ├── pages/
+│   ├── hooks/
+│   ├── services/
+│   └── assets/
+│
+├── backend/
+│   ├── controllers/
+│   ├── middleware/
+│   ├── models/
+│   ├── routes/
+│   ├── services/
+│   ├── utils/
+│   └── uploads/
+│
+└── README.md
+```
+
+---
+
+# ⚡ Installation
+
+## Clone Repository
+
+```bash
+git clone https://github.com/Shubham46-glitch/ResuMatrix.git
+
+cd ResuMatrix
+```
+
+---
+
+## Install Dependencies
+
+```bash
+npm install
+```
+
+or
+
+```bash
+cd frontend
+npm install
+
+cd ../backend
+npm install
+```
+
+---
+
+# 🔑 Environment Variables
+
+Backend
+
+```env
+PORT=5000
+
+MONGO_DB_URL=
+
+JWT_SECRET=
+
+GEMINI_API_KEY=
+
+EMAIL_USER=
+
+EMAIL_PASS=
+
+CLIENT_URL=
+```
+
+Frontend
+
+```env
+VITE_API_URL=http://localhost:5000
+```
+
+---
+
+# ▶ Run Project
+
+```bash
+npm run dev
+```
+
+---
+
+# 🚀 Future Roadmap
+
+- AI Resume Rewriter
+- AI Cover Letter Generator
+- Resume Version Comparison
+- AI Career Roadmap
+- AI Job Recommendations
+- AI Portfolio Review
+- Voice Mock Interview
+- Resume Keyword Optimizer
+- AI Career Coach
+- Multi-language Support
+
+---
+
+# 💻 Built With
+
+- React
+- Node.js
+- Express.js
+- MongoDB
+- Gemini AI
+- Tailwind CSS
+- Vite
+
+---
+
+# 👨‍💻 Author
+
+## Shubham Baikar
+
+B.Tech Information Technology
+
+Passionate about Full Stack Development • AI • Data Analytics
+
+⭐ If you like this project, don't forget to star the repository!
+
+---
+
+<div align="center">
+
+### 🌟 Star this repository if you found it useful!
+
+Made with ❤️ by **Shubham Baikar**
+
+</div>

@@ -107,25 +107,6 @@ After every interview users receive:
 
 ---
 
-# 🖼 Screenshots
-
-> Add screenshots here after deployment.
-
-```
-Landing Page
-
-Dashboard
-
-Resume Analyzer
-
-Mock Interview
-
-Analytics
-
-Settings
-```
-
----
 
 # 🛠 Tech Stack
 

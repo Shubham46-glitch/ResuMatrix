@@ -3,8 +3,9 @@
 # 🚀 ResuMatrix AI
 ### AI-Powered Resume Analyzer & Mock Interview Platform
 
-<img src="./assets/banner.png" alt="ResuMatrix Banner" width="100%"/>
-
+<p align="center">
+  <img src="./assets/banner.png" alt="ResuMatrix AI Banner" width="100%">
+</p>
 [![React](https://img.shields.io/badge/React-19-blue?logo=react)]()
 [![Node.js](https://img.shields.io/badge/Node.js-Express-green?logo=node.js)]()
 [![MongoDB](https://img.shields.io/badge/MongoDB-Atlas-success?logo=mongodb)]()

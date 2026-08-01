@@ -1,0 +1,21 @@
+@import "tailwindcss";
+
+@theme {
+  --color-matrix-bg: #0B0F19;
+  --color-matrix-panel: #151B2B;
+  --color-matrix-border: #232D42;
+  --color-matrix-accent: #6366F1;
+  --color-matrix-accent-hover: #4F46E5;
+  --color-matrix-success: #10B981;
+  --color-matrix-warning: #EF4444;
+  --color-matrix-text: #F8FAFC;
+  --color-matrix-text-muted: #94A3B8;
+  --font-sans: 'Inter', system-ui, -apple-system, sans-serif;
+}
+
+@layer base {
+  body {
+    background-color: var(--color-matrix-bg);
+    color: var(--color-matrix-text);
+  }
+}
